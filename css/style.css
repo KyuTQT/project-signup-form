@@ -43,4 +43,6 @@ body{
     display: flex;
     flex-direction: column;
     flex-shrink: 1;
+    justify-content: center;
+    gap: 50px;
 }
