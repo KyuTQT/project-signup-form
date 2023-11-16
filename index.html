@@ -29,20 +29,29 @@
                 <fieldset>
                         <legend>Fill up the form and enroll now!</legend>
                         <div class="form-container">
-                            <label for="email">Email:</label>
-                            <input type="email">
-                            <label for="house">Choose your house:</label>
-                            <select name="house" id="house">
-                                <option disabled selected value></option>
-                                <option value="BE">Black Eagles</option>
-                                <option value="BL">Black Lions</option>
-                                <option value="GD">Golden Deer</option>
-                            </select>
-                            <label for="pw">Password:</label>
-                            <input type="password" id="pw" name="pw">
-                            <label for="cpw">Confirm Password:</label>
-                            <input type="password" id="cpw" name="cpw">
+                            <div class="input-group">
+                                <label for="email">Email:</label>
+                                <input type="email">
+                            </div>
+                            <div class="input-group">
+                                <label for="house">Choose your house:</label>
+                                <select name="house" id="house">
+                                    <option disabled selected value>--Click here to select--</option>
+                                    <option value="BE">Black Eagles</option>
+                                    <option value="BL">Black Lions</option>
+                                    <option value="GD">Golden Deer</option>
+                                </select>
+                            </div>
+                            <div class="input-group">
+                                <label for="pw">Password:</label>
+                                <input type="password" id="pw" name="pw">
+                            </div>
+                            <div class="input-group">
+                                <label for="cpw">Confirm Password:</label>
+                                <input type="password" id="cpw" name="cpw">
+                            </div>
                         </div>
+                        
                         <button type="submit">Enroll</button>
                     <p>Already enrolled? <a href="">Log in</a></p>
                 </fieldset>
