@@ -13,29 +13,37 @@
         </div>
 
         <div class="right-container">
-            <p>Message to invite them to join a house, introduce house names</p>
-            <p>quote or short saying from the game</p>
+            <h2>Welcome to the Garreg Mach Monastery</h2>
+            <p>Are you ready to embark on an extraordinary journey in the world of Fódlan? 
+                Step into the hallowed halls of our prestigious institution, where the three noble houses, 
+                the Golden Deer, Black Eagles, and Blue Lions, await your selection. 
+                Immerse yourself in a captivating tale of political intrigue, friendship, and personal growth. 
+                As a studen,t you'll have the opportunity to hone your skills, knowledge, and be friends with your fellow students. 
+                Embrace the teachings of Seiros and unlock the true potential within! The future of Fódlan rests in your hands. 
+                Enroll today and shape your destiny!
+            </p>
+
+            <p class="quote">"Faith gives people motivation, but only the heart can tell them where their destination is."</p>
 
             <form action="post">
                 <fieldset>
-                    <div class="form-container">
                         <legend>Fill up the form and enroll now!</legend>
-                        <label for="email">Email:</label>
-                        <input type="email">
-                        <label for="house">Choose your house:</label>
-                        <select name="house" id="house">
-                            <option disabled selected value></option>
-                            <option value="BE">Black Eagles</option>
-                            <option value="BL">Black Lions</option>
-                            <option value="GD">Golden Deer</option>
-                        </select>
-                        <label for="pw">Password:</label>
-                        <input type="password" id="pw" name="pw">
-                        <label for="cpw">Confirm Password:</label>
-                        <input type="password" id="cpw" name="cpw">
-                    </div>
-
-                    <button type="submit">Enroll</button>
+                        <div class="form-container">
+                            <label for="email">Email:</label>
+                            <input type="email">
+                            <label for="house">Choose your house:</label>
+                            <select name="house" id="house">
+                                <option disabled selected value></option>
+                                <option value="BE">Black Eagles</option>
+                                <option value="BL">Black Lions</option>
+                                <option value="GD">Golden Deer</option>
+                            </select>
+                            <label for="pw">Password:</label>
+                            <input type="password" id="pw" name="pw">
+                            <label for="cpw">Confirm Password:</label>
+                            <input type="password" id="cpw" name="cpw">
+                        </div>
+                        <button type="submit">Enroll</button>
                     <p>Already enrolled? <a href="">Log in</a></p>
                 </fieldset>
             </form>
