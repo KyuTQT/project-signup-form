@@ -56,8 +56,27 @@ body:not(:-moz-handler-blocked) fieldset {
 
 .right-container{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     flex-shrink: 1;
     justify-content: center;
     gap: 50px;
+}
+
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.input-group {
+    flex: 0 0 calc(35% - 5px);
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label,
+.input-group input,
+.input-group select {
+    width: 80%;
 }
