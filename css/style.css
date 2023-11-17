@@ -1,12 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Pixelify+Sans&display=swap');
-@import url('https://fonts.google.com/specimen/Zilla+Slab');
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Pixelify+Sans&family=Zilla+Slab:wght@400&display=swap');
 
 :root{
-    --dark-purple: hsla(279, 41%, 15%, 1);
+    --dark-purple: hsla(279, 41%, 15%, .8);
     --straw: hsla(68, 54%, 70%, 1);
     --rose-ebony: hsla(352, 22%, 34%, 1);
     --english-violet: hsla(265, 25%, 30%, 1);
     --silver: hsla(17, 6%, 77%, 1);
+    --linen: hsla(28, 54%, 91%, 1);
+    --desert-sand: hsla(23, 37%, 72%, 1);
+    --floral-white: hsla(45, 55%, 96%, 1);
+    --olivine: hsla(81, 36%, 59%, 1);
+    --paynes-gray: hsla(219, 24%, 45%, 1);
 
 }
 html {
@@ -27,10 +31,21 @@ h2, p{
     margin-left: 2rem;
     margin-right: 5rem;
 }
+h2{
+    font-family: MedievalSharp;
+}
+
+p, label, legend{
+    font-family: Zilla Slab;
+}
 
 legend {
     padding: 0;
     display: table;
+    background-color: var(--paynes-gray);
+}
+legend, button{
+    margin-left: 2rem;
 }
 
 fieldset {
@@ -68,13 +83,18 @@ body:not(:-moz-handler-blocked) fieldset {
     justify-content: center;
     width: 65%;
     gap: 2rem;
+    background-color: var(--dark-purple);
+    
 }
 
 .form-container {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
+    padding-left: 2rem;
+    background-color: var(--paynes-gray);
 }
+
 
 .input-group {
     flex: 0 0 calc(35% - 5px);
