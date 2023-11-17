@@ -8,7 +8,6 @@
     --english-violet: hsla(265, 25%, 30%, 1);
     --silver: hsla(17, 6%, 77%, 1);
 
-    
 }
 html {
     -webkit-box-sizing: border-box;
@@ -23,6 +22,11 @@ html {
            -moz-box-sizing: inherit;
                 box-sizing: inherit;
     }
+
+h2, p{
+    margin-left: 2rem;
+    margin-right: 5rem;
+}
 
 legend {
     padding: 0;
@@ -43,6 +47,7 @@ body:not(:-moz-handler-blocked) fieldset {
 .whole-container{
     display: flex;
     justify-content: flex-start;
+    flex-shrink: 0;
 }
 
 .left-container{
@@ -50,9 +55,9 @@ body:not(:-moz-handler-blocked) fieldset {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    flex-shrink: .6;
     height: 100svh;
-    width: clamp(36rem, 80rem, 100%);
+    flex: 0 0 calc(35% - 5px);
+    width: max(30vw, 100px);
 }
 
 .right-container{
@@ -61,13 +66,14 @@ body:not(:-moz-handler-blocked) fieldset {
     flex-direction: column;
     flex-shrink: 1;
     justify-content: center;
-    gap: 50px;
+    width: 65%;
+    gap: 2rem;
 }
 
 .form-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 2rem;
 }
 
 .input-group {
