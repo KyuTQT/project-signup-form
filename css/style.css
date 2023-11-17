@@ -41,17 +41,16 @@ body:not(:-moz-handler-blocked) fieldset {
 .whole-container{
     display: flex;
     justify-content: flex-start;
-    margin-left: 0px;
 }
 
 .left-container{
-    background-image: url('../img/bg-image.jpg');
+    background-image: url('../img/bg-image-2.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
-    width: 30rem;
-    flex-shrink: .2;
+    flex-shrink: .6;
+    height: 100svh;
+    width: clamp(36rem, 80rem, 100%);
 }
 
 .right-container{
