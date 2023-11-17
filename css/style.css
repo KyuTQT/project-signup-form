@@ -2,11 +2,13 @@
 @import url('https://fonts.google.com/specimen/Zilla+Slab');
 
 :root{
-    --french-gray: #D2D2DAff;
-    --ash-gray: #9FBFB7ff;
-    --reseda-green: #8D8B70ff;
-    --jet: #464241ff;
-    --raisin-black: #382F39ff;
+    --dark-purple: hsla(279, 41%, 15%, 1);
+    --straw: hsla(68, 54%, 70%, 1);
+    --rose-ebony: hsla(352, 22%, 34%, 1);
+    --english-violet: hsla(265, 25%, 30%, 1);
+    --silver: hsla(17, 6%, 77%, 1);
+
+    
 }
 html {
     -webkit-box-sizing: border-box;
